@@ -1,0 +1,106 @@
+
+
+.top-nav {
+    background-color: black;
+    width: 100vw;
+}
+
+.top-nav ul {
+    display: inline-flex;
+    width: 20%;
+   
+}
+
+.top-nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    left: 65em;
+}
+
+.top-nav ul li a {
+    display: inline-flex;
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.bottom-nav {
+    border-bottom: 1px solid white;
+    display: flex;
+    position: static;
+}
+
+.bottom-nav ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.bottom-nav ul li, #btn-shop {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.bottom-nav ul li a {
+    display: inline-flex;
+    position: relative;
+    margin: px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#btn-shop {
+    position: absolute;
+    right: 5em;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: auto;
+    padding-left: 2px;
+    text-align: center;
+    z-index: auto;
+    
+}
+
+#hero {
+    width: 100vw;
+    position: absolute;
+    top: 4.2em;
+    z-index: -1;
+}
+
+#plan-form {
+    width: 75%;
+    position: absolute;
+    top: 27em;
+    left: 11em;
+}
+
+.main-container > div {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 42em;
+}
+
+.team > div {
+    display: inline-block;
+    width: 600px;
+}
+
+.team > img {
+    width: 300px;
+}
+
+div > .text {
+    width: 400px;
+    text-overflow: inherit;
+    padding-bottom: 20px;
+    text-align: left;
+    position: relative;
+    top: -10em;
+}
